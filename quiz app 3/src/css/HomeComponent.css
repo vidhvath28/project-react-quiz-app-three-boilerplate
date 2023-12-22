@@ -1,0 +1,23 @@
+.home{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-heading{
+    color: rgb(0, 0, 0);
+}
+
+.home-bt{
+    color: white;
+    font-weight: lighter;
+    background-color: rgb(7, 179, 7);
+    width: 200px;
+    height: 40px;
+    border-radius: 100px;
+    outline: none;
+    cursor: pointer;
+}

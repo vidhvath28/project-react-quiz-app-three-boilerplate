@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quiz{
+    padding: 5% 0px 5% 0px;
+    background-color: white;
+    width: 85vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+h5{
+    font-weight: normal;
+    font-size: large;
+}
+.options{
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    height: 40%;
+}
+.option{
+    cursor: pointer;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    height: fit-content;
+    background-color: cadetblue;
+    text-align: center;
+}
+.button{
+    cursor: pointer;
+    border: none;
+    margin-right: 20px;
+    padding: 10px;
+}
+.previous-btn{
+    background-color: cornflowerblue;
+}
+.next-btn{
+    color: white;
+    background-color: rgb(64, 157, 64);
+}
+.quit-btn{
+    color: white;
+    background-color: rgb(217, 93, 93);
+}

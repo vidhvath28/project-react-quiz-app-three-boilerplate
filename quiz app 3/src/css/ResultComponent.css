@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    gap: 0rem;
+}
+.result{
+    padding: 20px 30px 20px 30px;
+    width: 600px;
+    height: 380px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.details{
+    text-align: left;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.btn button{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+}
